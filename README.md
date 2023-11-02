@@ -24,7 +24,9 @@ Example 3:
 Input: nums = [3,1,2,10,1]
 Output: [3,4,6,16,17]
 #### Solution
-``` var runningSum = function(nums) {
+
+```
+ var runningSum = function(nums) {
 var currentSum = 0;
 var sumArray = [];
     for(let i = 0; i < nums.length; i++){
@@ -34,7 +36,9 @@ var sumArray = [];
     return sumArray
 };
 
-runningSum([1,2,3,4,5]) ```
+runningSum([1,2,3,4,5])
+```
+
 
 ### Riches customer wealth
 You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.
